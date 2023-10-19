@@ -1,6 +1,26 @@
-.menu-style{
+.menu-style {
     display: flex;
+    width: 100vw;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
+    font-family: "Game of Thrones";
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-style:visited{
+    color: white;
+}
+
+.menu-style:focus{
+    color: white;
+}
+
+.menu-style:active{
+    color: white;
 }
