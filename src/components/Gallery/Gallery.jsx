@@ -6,9 +6,8 @@ export default function Gallery({arrayChar}){
             {arrayChar.map((item, index) => (
            <div key={index}>
            <h1>{item.name}</h1>
-           <img src={item.image} alt="Images"/>
+           <img src={`http://localhost:3000/${item.image}`} alt="Images"/>
            </div>  
-            ))}  
-        </div>
+            ))}  </div>
     )
 }
