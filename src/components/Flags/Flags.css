@@ -1,0 +1,13 @@
+.flags{
+    width: 50px;
+    padding: 5px;
+}
+
+.div-flags{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}

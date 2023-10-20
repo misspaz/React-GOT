@@ -13,14 +13,14 @@
     align-items: center;
 }
 
-.menu-style:visited{
+a:visited{
     color: white;
 }
 
-.menu-style:focus{
+a:focus{
     color: white;
 }
 
-.menu-style:active{
+a:active{
     color: white;
 }
