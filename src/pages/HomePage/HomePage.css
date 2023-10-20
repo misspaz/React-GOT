@@ -17,6 +17,7 @@
 @font-face {
     font-family: 'Game of Thrones';
     src: url('../../../assets/Game\ of\ Thrones.ttf');
+    font-weight: normal;
     
   }
 
@@ -25,7 +26,8 @@
     font-size: 176px;
     color: white;
     text-align: center;
-    padding: 50px
+    padding: 50px;
+    font-weight: normal;
   }
 
  
