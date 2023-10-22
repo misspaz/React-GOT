@@ -1,0 +1,43 @@
+.bg-page {
+  background-color: black;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-question {
+  font-family: "Game of Thrones";
+  font-weight: "normal";
+  color: white;
+}
+
+.input-style {
+  width: 400px;
+  background-color: black;
+  border-bottom: white 1px solid;
+  border-top: black 1px solid;
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.button-style {
+  font-family: "Game of Thrones";
+  font-weight: "normal";
+  color: black;
+  background-color: white;
+  border-radius: white 1px solid;
+  width: 200px;
+  height: 40px;
+}
+
+.gallery-style{
+    width: 100vw;
+}
