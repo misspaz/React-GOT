@@ -1,0 +1,15 @@
+.content1 {
+height: 100vh;
+background-color: black;
+color: lightslategray;
+
+}
+.elDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-style {
+margin-top: 30px;
+}
