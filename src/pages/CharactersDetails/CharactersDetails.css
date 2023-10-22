@@ -1,0 +1,104 @@
+.back{
+    padding: 20px;
+    border: hidden;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+*{
+    font-family: 'Game of Thrones';
+    color: white;
+    background-color: black;
+}
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('../../../assets/Game\ of\ Thrones.ttf');
+    font-weight: normal;
+    
+  }
+  
+
+.box-personaje{
+    display: block;
+    text-align: center;
+}  
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.input{
+    width: 150px;
+}
+li{
+    list-style: none;
+    width: 120px;
+    text-align: center;
+    text-transform: lowercase;
+   font-size: smaller;
+}
+
+.vox{
+    display: grid;
+    justify-items: center;
+    font-variant-caps: all-petite-caps;
+    
+    
+}
+.form{
+    padding: 20px;
+}
+.flecha{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+.logo-var{
+    height: 50px;
+    height: 50px;
+    padding: 20px;
+}
+.var-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagen{
+    width: 320px;
+    height: 350px;
+    background-size: cover;
+    padding: 20px;
+}
+.simplebar {
+    width: 5px;
+    color: white;
+}
+
+.simplebar-scrollbar {
+    background-color: white;
+    width: 4px;
+    height: 8px; /* Ajusta la altura de la barra de desplazamiento a tu preferencia */
+}
+
+.simplebar-scrollbar.simplebar-visible .simplebar-scrollbar-dragging {
+    background-color: rgb(255, 255, 255);
+    width: 2px;
+}
+
+.simplebar-track {
+    width: 2px;
+    background-color: gray;
+}
+
+.simplebar-track.simplebar-vertical {
+    top: 0;
+    width: 2px;
+    left: 170px;
+}
+.simplebar-content-wrapper {
+    text-transform: lowercase;
+}
