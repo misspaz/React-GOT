@@ -8,7 +8,7 @@ export default function Character({ character }) {
       <img
         className="character-img"
         src={`http://localhost:3000/${character.image}`}
-        alt="Images"
+        alt={character.image}
       />
     </div>
   );

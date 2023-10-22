@@ -36,7 +36,7 @@ export default function CharactersPage() {
       <div className="div-characters">
         <div className="div-header">
           <SearchBar setSearch={searchCharacters} />
-          <Flags />
+          <Flags showHomeIcon={true} />
         </div>
 
         <SimpleBar style={{ height: "68%", width: "95%" }}>

@@ -1,0 +1,49 @@
+.houses-div{
+
+    background-color: black;
+    height: 100vh;
+    font-family: "Game of Thrones";
+    font-weight: normal;
+    color: white;
+   
+}
+
+.house-image{
+    width: 15%;
+}
+
+.div-img-name{
+    
+    padding-top: 20px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-info{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.div-info{
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+

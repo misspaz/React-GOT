@@ -24,3 +24,7 @@ a:focus{
 a:active{
     color: white;
 }
+
+.white-text{
+    color: white;
+}

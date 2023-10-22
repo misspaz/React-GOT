@@ -7,7 +7,7 @@ export default function HomePage() {
   const { t } = useTranslation();
   return (
     <div className="bg-image">
-    <Flags/>
+      <Flags showHomeIcon={false} showArrowIcon={false} />
       <h1 className="title">{t("Game of Thrones")}</h1>
       <Menu />
     </div>

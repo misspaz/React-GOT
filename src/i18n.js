@@ -7,7 +7,12 @@ const resources = {
       "characters": "characters",
       "houses": "houses",
       "chronology": "chronology",
-      "Game of Thrones": "Game of Thrones"
+      "Game of Thrones": "Game of Thrones",
+      "alliances": "alliances",
+      "foundation": "foundation",
+      "region": "region",
+      "religions": "religions",
+      "settlement": "settlement"
     }
   },
   es: {
@@ -15,7 +20,12 @@ const resources = {
       "characters": "personajes",
       "houses": "casas",
       "chronology": "cronologia",
-      "Game of Thrones": "Juego de Tronos"
+      "Game of Thrones": "Juego de Tronos",
+      "alliances": "alianzas",
+      "foundation": "Fecha de fundacion",
+      "region": "region",
+      "religions": "religiones",
+      "settlement": "asentamiento"
     }
   }
 };
