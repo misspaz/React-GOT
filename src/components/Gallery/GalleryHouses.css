@@ -1,0 +1,33 @@
+ .characterH-div {
+   position: relative;
+   width: 248px;
+   height: 320px;
+   overflow: hidden;
+   margin: 20px;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .characterH-img {
+   display: block;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center center;
+
+ }
+
+ .gallery-houses {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .characterH-name {
+   text-align: center;
+   font-weight: bold;
+   font-size: 16px;
+   margin-top: 8px;
+   color: white;
+ }
