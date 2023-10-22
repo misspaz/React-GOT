@@ -12,7 +12,13 @@ const resources = {
       "foundation": "foundation",
       "region": "region",
       "religions": "religions",
-      "settlement": "settlement"
+      "settlement": "settlement",
+      "house": "house",
+      "apariences": "apariences",
+      "father": "father",
+      "descendants": "descendants",
+      "titles": "titles",
+      
     }
   },
   es: {
@@ -25,7 +31,12 @@ const resources = {
       "foundation": "Fecha de fundacion",
       "region": "region",
       "religions": "religiones",
-      "settlement": "asentamiento"
+      "settlement": "asentamiento",
+      "house": "casa",
+      "apariences": "apariencias",
+      "father": "padre",
+      "descendants": "descendientes",
+      "titles": "titulos",
     }
   }
 };

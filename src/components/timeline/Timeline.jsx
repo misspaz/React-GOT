@@ -7,8 +7,8 @@ export default function Timeline({arrayChar}){
         <div className="elDiv timeline">
 
             {arrayChar.filter( (item) => item.age ).sort((a, b) => a.age - b.age).map((item, index) => (
-        <div key={index} className={(index%2===0)? 'container left' : 'container right'}>
-            <div className="card content">
+        <div key={index} className={(index%2===0)? 'tl-container left' : 'tl-container right'}>
+            <div className="card char-content">
                 <div className="edadNombre">
                     <h5>{item.age}</h5>
                     <h4>{item.name}</h4>

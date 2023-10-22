@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Timeline from "../timeline/Timeline";
-import ReverseTimeline from "../reverseTimeline/ReverseTimeline";
+// import Timeline from "../timeline/Timeline";
+// import ReverseTimeline from "../reverseTimeline/ReverseTimeline";
 
 const ButtonTimeline = () => {
     const [active, setActive ] =useState()

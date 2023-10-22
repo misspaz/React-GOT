@@ -1,3 +1,9 @@
+.alldetails{
+    background-color: black;
+    height: 100vh;
+}
+
+
 .back{
     padding: 20px;
     border: hidden;
@@ -5,11 +11,7 @@
     display: flex;
     align-items: center;
 }
-*{
-    font-family: 'Game of Thrones';
-    color: white;
-    background-color: black;
-}
+
 @font-face {
     font-family: 'Game of Thrones';
     src: url('../../../assets/Game\ of\ Thrones.ttf');
@@ -68,7 +70,7 @@ li{
     align-items: center;
 }
 .imagen{
-    width: 320px;
+   
     height: 350px;
     background-size: cover;
     padding: 20px;
@@ -78,27 +80,40 @@ li{
     color: white;
 }
 
-.simplebar-scrollbar {
+/* .simplebar-scrollbar {
     background-color: white;
     width: 4px;
-    height: 8px; /* Ajusta la altura de la barra de desplazamiento a tu preferencia */
-}
+    height: 8px; /* Ajusta la altura de la barra de desplazamiento a tu preferencia 
+} */
 
-.simplebar-scrollbar.simplebar-visible .simplebar-scrollbar-dragging {
+/* .simplebar-scrollbar.simplebar-visible .simplebar-scrollbar-dragging {
     background-color: rgb(255, 255, 255);
     width: 2px;
-}
+} */
 
-.simplebar-track {
+/* .simplebar-track {
     width: 2px;
     background-color: gray;
-}
+} */
 
-.simplebar-track.simplebar-vertical {
+/* .simplebar-track.simplebar-vertical {
     top: 0;
     width: 2px;
     left: 170px;
-}
-.simplebar-content-wrapper {
+} */
+/* .simplebar-content-wrapper {
     text-transform: lowercase;
+} */
+
+.house-img-char{
+    width: 70px;
+    object-fit: cover;
+    
+}
+
+.div-house-char{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

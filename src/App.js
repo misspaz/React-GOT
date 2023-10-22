@@ -6,6 +6,7 @@ import HousesPage from "./pages/HousesPage/HousesPage";
 import ChronologyPage from "./pages/ChronologyPage/ChronologyPage";
 import AddCharacterForm from "./pages/AddCharacterForm/AddCharacterForm";
 import HousesDetails from "./pages/TestPages/HousesDetails";
+import TestCharDetails from "./pages/TestPages/TestCharDetails";
 
 // import AddCharacterPage from "./pages/AddCharacterPage/AddCharacterPage";
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/addcharacter" element={<AddCharacterForm />} />
             <Route path="/chronology" element={<ChronologyPage />} />
             <Route path="/characters" element={<CharactersPage />} />
+            <Route path="/characters/:id" element={<TestCharDetails />} />
             <Route path="/houses/:id" element={<HousesDetails />} />
             <Route path="/houses" element={<HousesPage />} />
             <Route path="/" element={<HomePage />} />

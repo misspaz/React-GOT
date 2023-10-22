@@ -6,7 +6,8 @@ import "./ChronologyPage.css"
 import Menu from "../../components/Menu/Menu";
 import SimpleBar from "simplebar-react";
 import Flags from "../../components/Flags/Flags"
-import ReverseTimeline from "../../components/reverseTimeline/ReverseTimeline";
+// import ReverseTimeline from "../../components/reverseTimeline/ReverseTimeline";
+
 
 export default function CharactersPage() {
 const [characters, setCharacters] = useState([]);
@@ -25,11 +26,12 @@ useEffect(() => {
 return (                                                        
     <div className="content1">
         <div>
-        <Flags/>
+        <Flags showHomeIcon={true}/>
         </div>
         <SimpleBar style={{ height: "80%", width: "100%" }}>
+
             <Timeline arrayChar={characters}/>
-            <ReverseTimeline arrayChar={characters}/>
+            {/* <ReverseTimeline arrayChar={characters}/> */}
         </SimpleBar>
         <Menu className="menuStyle"/>
     </div>

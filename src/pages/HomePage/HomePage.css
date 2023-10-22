@@ -7,7 +7,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: center;

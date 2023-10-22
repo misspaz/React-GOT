@@ -15,7 +15,7 @@
     left: 50%;
     margin-left: -3px;
 }
-.container {
+.tl-container {
     position: relative;
     background-color: inherit;
     width: 30%;
@@ -46,7 +46,7 @@
 .right::after {
     left: -16px;
 }
-.content {
+.char-content {
     background-color: black;
     position: relative;
     border-radius: 6px;
