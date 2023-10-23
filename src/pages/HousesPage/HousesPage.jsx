@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import GalleryHouses from "../../components/Gallery/GalleryHouses";
-import"../HousesPage/HousesPage.css"
 import "../HousesPage/HousesPage.css"
 import SimpleBar from "simplebar-react";
 import "simplebar-react"
@@ -38,8 +37,8 @@ export default function HousesPage() {
 
   return (
     <>
-   <div className="div-characters">
-        <div className="div-header">
+   <div className="div-houses">
+        <div className="div-header-houses">
           <SearchBar 
           setSearch={searchHouses}
           className="white-background" 

@@ -39,7 +39,7 @@ export default function CharactersPage() {
           <Flags showHomeIcon={true} />
         </div>
 
-        <SimpleBar style={{ height: "68%", width: "95%" }}>
+        <SimpleBar style={{ height: "68%", width: "95%" } }>
           <Gallery arrayChar={charactersFiltered} />
         </SimpleBar>
         <Menu />
