@@ -10,9 +10,9 @@ export default function Menu() {
     <nav className="menu-style">
       {/* <NavLink to="">Home</NavLink> */}
 
-      <NavLink className="white-text" to="characters">{t("characters")}</NavLink>
-      <NavLink className="white-text" to="houses">{t("houses")}</NavLink>
-      <NavLink className="white-text" to="chronology">{t("chronology")}</NavLink>
+      <NavLink className="white-text" to="/characters">{t("characters")}</NavLink>
+      <NavLink className="white-text" to="/houses">{t("houses")}</NavLink>
+      <NavLink className="white-text" to="/chronology">{t("chronology")}</NavLink>
     </nav>
   );
 }
