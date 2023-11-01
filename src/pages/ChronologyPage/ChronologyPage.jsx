@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Timeline from "../../components/timeline/Timeline";
@@ -33,6 +33,11 @@ return (
             <Timeline arrayChar={characters}/>
             {/* <ReverseTimeline arrayChar={characters}/> */}
         </SimpleBar>
+        <div className="button-div">
+      <Link to="/addcharacter">
+        <button className="button-style">Add character</button>
+      </Link>
+      </div>
         <Menu className="menuStyle"/>
     </div>
 );

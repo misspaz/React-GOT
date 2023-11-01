@@ -13,3 +13,23 @@ color: lightslategray;
 .menu-style {
 margin-top: 30px;
 }
+
+.button-style {
+    font-family: "Game of Thrones";
+    font-weight: "normal";
+    color: black;
+    background-color: white;
+    border-radius: white 1px solid;
+    width: 200px;
+    height: 40px;
+  }
+
+  .button-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+  }

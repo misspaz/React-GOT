@@ -1,5 +1,11 @@
 .bg-page {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-style {
@@ -38,6 +44,6 @@
   height: 40px;
 }
 
-.gallery-style{
-    width: 100vw;
+.gallery-style {
+  width: 100vw;
 }
