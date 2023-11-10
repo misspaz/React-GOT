@@ -29,7 +29,7 @@ useEffect(() => {
 return (                                                        
     <div className="content1">
         <div>
-        <Flags/>
+        <Flags showHomeIcon={true}/>
         </div>
         <SimpleBar style = { { height: "80%", width: "100%" } }>
             <button className="btn-inver {active ? 'upMode' : 'downMode'" onClick = { () => setActive(!active) }></button>

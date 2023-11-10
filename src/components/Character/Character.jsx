@@ -7,7 +7,7 @@ export default function Character({ character }) {
 
       <img
         className="character-img"
-        src={`http://localhost:3000/${character.image}`}
+        src={character.image.substring(0, 4) === 'http' ? character.image : `http://localhost:3000/${character.image}`}
         alt={character.image}
       />
     </div>
