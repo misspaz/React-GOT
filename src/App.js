@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import CharactersPage from "./pages/CharactersPage/CharactersPage";
 import HousesPage from "./pages/HousesPage/HousesPage";
-import ChronologyPage from "./pages/ChronologyPage/ChronologyPage";
+import ChronologyPage from "./pages/ChronologyPage/ChronologyPage"
 import AddCharacterForm from "./pages/AddCharacterForm/AddCharacterForm";
 import HousesDetails from "./pages/TestPages/HousesDetails";
 

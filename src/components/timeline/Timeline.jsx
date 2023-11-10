@@ -2,11 +2,9 @@ import "./Timeline.css";
 
 
 export default function Timeline({arrayChar}){
-
     return (
         <div className="elDiv timeline">
-
-            {arrayChar.filter( (item) => item.age ).sort((a, b) => a.age - b.age).map((item, index) => (
+        {arrayChar.filter( (item) => item.age ).sort((a, b) => a.age - b.age).map((item, index) => (
         <div key={index} className={(index%2===0)? 'container left' : 'container right'}>
             <div className="card content">
                 <div className="edadNombre">
@@ -22,4 +20,3 @@ export default function Timeline({arrayChar}){
         </div>
     )
 }
-
